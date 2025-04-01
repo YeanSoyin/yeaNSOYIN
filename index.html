@@ -1,0 +1,386 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Chairs
+  </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-50">
+  <header class="relative">
+   <img alt="Chairs Header Image" class="w-full h-64 object-contain" height="400" src="images/9.jpg" width="1200"/>
+   <div class="header-text">
+    <h1>Chairs</h1>
+    <p>HOME > SHOP > CHAIRS</p>
+</div>
+  </header>
+  <nav class="bg-white shadow-md py-4">
+   <div class="container mx-auto flex justify-center space-x-8">
+    <a class="flex flex-col items-center text-gray-700" href="#">
+     <img alt="Armchairs" class="w-12 h-12 rounded-full" height="50" src="images/2.webp" width="50"/>
+     <span class="mt-2">
+      Armchairs
+     </span>
+     <span class="text-sm text-gray-500">
+      5 products
+     </span>
+    </a>
+    <a class="flex flex-col items-center text-gray-700" href="#">
+     <img alt="Chairs" class="w-12 h-12 rounded-full" height="50" src="images/3.webp" width="50"/>
+     <span class="mt-2">
+      Chairs
+     </span>
+     <span class="text-sm text-gray-500">
+      6 products
+     </span>
+    </a>
+    <a class="flex flex-col items-center text-gray-700" href="#">
+     <img alt="Storage" class="w-12 h-12 rounded-full" height="50" src="images/4.webp" width="50"/>
+     <span class="mt-2">
+      Storage
+     </span>
+     <span class="text-sm text-gray-500">
+      6 products
+     </span>
+    </a>
+    <a class="flex flex-col items-center text-gray-700" href="#">
+     <img alt="Sofas" class="w-12 h-12 rounded-full" height="50" src="images/5.png" width="50"/>
+     <span class="mt-2">
+      Sofas
+     </span>
+     <span class="text-sm text-gray-500">
+      6 products
+     </span>
+    </a>
+    <a class="flex flex-col items-center text-gray-700" href="#">
+     <img alt="Decor" class="w-12 h-12 rounded-full" height="50" src="images/6.png" width="50"/>
+     <span class="mt-2">
+      Decor
+     </span>
+     <span class="text-sm text-gray-500">
+      8 products
+     </span>
+    </a>
+    <a class="flex flex-col items-center text-gray-700" href="#">
+     <img alt="Tables" class="w-12 h-12 rounded-full" height="50" src="images/7.webp" width="50"/>
+     <span class="mt-2">
+      Tables
+     </span>
+     <span class="text-sm text-gray-500">
+      5 products
+     </span>
+    </a>
+   </div>
+  </nav>
+  <main class="container mx-auto py-8">
+   <div class="flex flex-col lg:flex-row">
+    <aside class="w-full lg:w-1/4 p-4 bg-white shadow-md rounded-md">
+     <div class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">
+       Filter by price
+      </h2>
+      <div class="sidebar-section">
+        <h2>Filter by price</h2>
+        <div class="price-range">
+            <label for="min-price">Price: $40 - $180</label>
+            <input type="range" id="min-price" name="min-price" min="40" max="180">
+        </div>
+    </div>
+     </div>
+     <div class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">
+       Filter by color
+      </h2>
+      <div class="space-y-2">
+       <label class="flex items-center">
+        <input type="checkbox" name="color" value="Beige"/>
+        <span class="ml-2">
+         Beige
+        </span>
+       </label>
+       <label class="flex items-center">
+        <input type="checkbox" name="color" value="Blue"/>
+        <span class="ml-2">
+         Blue
+        </span>
+       </label>
+       <label class="flex items-center">
+        <input type="checkbox" name="color" value="Gray"/>
+        <span class="ml-2">
+         Gray
+        </span>
+       </label>
+      </div>
+     </div>
+     <div class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">
+       Filter by material
+      </h2>
+      <div class="space-y-2">
+       <label class="flex items-center">
+        <input type="checkbox" name="material" value="fabric"/>
+        <span class="ml-2">
+         Fabric
+        </span>
+       </label>
+       <label class="flex items-center">
+        <input type="checkbox" name="material" value="Leather"/>
+        <span class="ml-2">
+         Leather
+        </span>
+       </label>
+       <label class="flex items-center">
+        <input type="checkbox" name="material" value="metal"/>
+        <span class="ml-2">
+         Metal
+        </span>
+       </label>
+       <label class="flex items-center">
+        <input type="checkbox" name="material" value="wood"/>
+        <span class="ml-2">
+         Wood
+        </span>
+       </label>
+      </div>
+     </div>
+     <div class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">
+       Filter by brand
+      </h2>
+      <div class="space-y-2">
+       <label class="flex items-center">
+        <input type="checkbox" name="brand" value="Ikea"/>
+        <span class="ml-2">
+         Ikea
+        </span>
+       </label>
+       <label class="flex items-center">
+        <input  type="checkbox" name="brand" value="Ashley"/>
+        <span class="ml-2">
+         Ashley
+        </span>
+       </label>
+       <label class="flex items-center">
+        <input  type="checkbox" name="brand" value="Wayfair"/>
+        <span class="ml-2">
+         Wayfair
+        </span>
+       </label>
+       <label class="flex items-center">
+        <input  type="checkbox" name="brand" value="Pottery bran"/>
+        <span class="ml-2">
+         Pottery Barn
+        </span>
+       </label>
+      </div>
+     </div>
+     <div>
+      <h2 class="text-lg font-semibold mb-2">
+       Best selling products
+      </h2>
+      <ul class="space-y-4">
+       <li class="flex items-center">
+        <img alt="Product 1" class="w-12 h-12 rounded-md" height="50" src="images/5.png" width="50"/>
+        <div class="ml-4">
+         <h3 class="text-sm font-medium">
+          Tellus Convallis
+         </h3>
+         <span class="text-sm text-gray-500">
+          $123.00
+         </span>
+        </div>
+       </li>
+       <li class="flex items-center">
+        <img alt="Product 2" class="w-12 h-12 rounded-md" height="50" src="images/6.png" width="50"/>
+        <div class="ml-4">
+         <h3 class="text-sm font-medium">
+          Hendrerit Quisque
+         </h3>
+         <span class="text-sm text-gray-500">
+          $98.00
+         </span>
+        </div>
+       </li>
+       <li class="flex items-center">
+        <img alt="Product 3" class="w-12 h-12 rounded-md" height="50" src="images/7.webp" width="50"/>
+        <div class="ml-4">
+         <h3 class="text-sm font-medium">
+          Dolore Magna
+         </h3>
+         <span class="text-sm text-gray-500">
+          $75.00
+         </span>
+        </div>
+       </li>
+       <li class="flex items-center">
+        <img alt="Product 4" class="w-12 h-12 rounded-md" height="50" src="images/1.webp" width="50"/>
+        <div class="ml-4">
+         <h3 class="text-sm font-medium">
+          Felis Vehicula
+         </h3>
+         <span class="text-sm text-gray-500">
+          $74.00
+         </span>
+        </div>
+       </li>
+       <li class="flex items-center">
+        <img alt="Product 5" class="w-12 h-12 rounded-md" height="50" src="images/8.webp" width="50"/>
+        <div class="ml-4">
+         <h3 class="text-sm font-medium">
+          Commodo Amcorper
+         </h3>
+         <span class="text-sm text-gray-500">
+          $120.00
+         </span>
+        </div>
+       </li>
+      </ul>
+     </div>
+    </aside>
+    <section class="w-full lg:w-3/4 p-4">
+     <div class="flex justify-between items-center mb-4">
+      <span class="text-gray-500">
+       Showing all 8 results
+      </span>
+      <select class="form-select">
+       <option>
+        Default sorting
+       </option>
+       <option>
+        Sort by popularity
+       </option>
+       <option>
+        Sort by average rating
+       </option>
+       <option>
+        Sort by latest
+       </option>
+       <option>
+        Sort by price: low to high
+       </option>
+       <option>
+        Sort by price: high to low
+       </option>
+      </select>
+     </div>
+     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white shadow-md rounded-md p-4">
+       <img alt="Augue Mauris Chair" class="w-full h-48 object-cover rounded-md" height="200" src="images/2.webp" width="200"/>
+       <h3 class="mt-4 text-lg font-semibold">
+        Augue Mauris
+       </h3>
+       <span class="text-sm text-gray-500">
+        Chairs
+       </span>
+       <div class="mt-2 flex justify-between items-center">
+        <span class="text-lg font-bold">
+         $65.00
+        </span>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-md">
+         Add to cart
+        </button>
+       </div>
+      </div>
+      <div class="bg-white shadow-md rounded-md p-4 relative">
+       <span class="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded-md">
+        SALE
+       </span>
+       <img alt="Bibendum Arcu Chair" class="w-full h-48 object-cover rounded-md" height="200" src="images/3.webp" width="200"/>
+       <h3 class="mt-4 text-lg font-semibold">
+        Bibendum Arcu
+       </h3>
+       <span class="text-sm text-gray-500">
+        Chairs
+       </span>
+       <div class="mt-2 flex justify-between items-center">
+        <span class="text-lg font-bold">
+         $40.00
+        </span>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-md">
+         Add to cart
+        </button>
+       </div>
+      </div>
+      <div class="bg-white shadow-md rounded-md p-4">
+       <img alt="Edget Dolor Chair" class="w-full h-48 object-cover rounded-md" height="200" src="images/6.png" width="200"/>
+       <h3 class="mt-4 text-lg font-semibold">
+        Edget Dolor
+       </h3>
+       <span class="text-sm text-gray-500">
+        Chairs
+       </span>
+       <div class="mt-2 flex justify-between items-center">
+        <span class="text-lg font-bold">
+         $45.00
+        </span>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-md">
+         Add to cart
+        </button>
+       </div>
+      </div>
+      <div class="bg-white shadow-md rounded-md p-4">
+       <img alt="Laoreet Aliquet Chair" class="w-full h-48 object-cover rounded-md" height="300" src="images/5.png" width="200"/>
+       <h3 class="mt-4 text-lg font-semibold">
+        Laoreet Aliquet
+       </h3>
+       <span class="text-sm text-gray-500">
+        Chairs
+       </span>
+       <div class="mt-2 flex justify-between items-center">
+        <span class="text-lg font-bold">
+         $95.00
+        </span>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-md">
+         Add to cart
+        </button>
+       </div>
+      </div>
+      <div class="bg-white shadow-md rounded-md p-4">
+       <img alt="Pretium Elite Chair" class="w-full h-48 object-cover rounded-md" height="300" src="images/1.webp" width="200"/>
+       <h3 class="mt-4 text-lg font-semibold">
+        Pretium Elite
+       </h3>
+       <span class="text-sm text-gray-500">
+        Chairs
+       </span>
+       <div class="mt-2 flex justify-between items-center">
+        <span class="text-lg font-bold">
+         $130.00
+        </span>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-md">
+         Add to cart
+        </button>
+       </div>
+      </div>
+      <div class="bg-white shadow-md rounded-md p-4 relative">
+       <span class="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded-md">
+        SALE
+       </span>
+       <img alt="Viverra Auctor Chair" class="w-full h-48 object-cover rounded-md" height="300" src="images/4.webp" width="200"/>
+       <h3 class="mt-4 text-lg font-semibold">
+        Viverra Auctor
+       </h3>
+       <span class="text-sm text-gray-500">
+        Chairs
+       </span>
+       <div class="mt-2 flex justify-between items-center">
+        <span class="text-lg font-bold">
+         $90.00
+        </span>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-md">
+         Add to cart
+        </button>
+       </div>
+      </div>
+     </div>
+    </section>
+   </div>
+  </main>
+<script src="script.js"></script>
+ </body>
+</html>
